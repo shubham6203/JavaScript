@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom-1</title>
+    <style>
+        h1{
+            color: red;
+        }
+        /* tag,class,id,combinators */
+        /*id*/
+    </style>  
+</head>
+<body>
+    <h1 id="heading">I am heading</h1>
+    <p id="ptag">I am a p tag</p>
+</body>
+</html>
+<script>
+    let head = document.getElementById("heading")
+    head.innerText = "I am a very good heading";  
+    
+    let ptag = document.getElementById("ptag").innerText
+    ptag.innerText = "I am a cool paragraph"
+
+
+    console.log(ptag)
+    console.log(head.innerText);
+
+    let obj =
+    {
+        name : "Shubham"
+    }
+    obj.name = "Rahul"
+    console.log(obj)
+
+</script>  
